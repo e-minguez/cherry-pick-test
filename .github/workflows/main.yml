@@ -18,7 +18,7 @@ jobs:
         with:
           allowUserToSpecifyBranchViaLabel: 'true'
           labelPatternRequirement: 'CP v'
-          userBranchPrefix: 'v'
+          userBranchPrefix: 'release-'
           labels: |
             cherry-pick
           reviewers: |
