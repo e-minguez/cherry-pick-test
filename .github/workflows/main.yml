@@ -17,7 +17,7 @@ jobs:
         uses: xealth/cherry-pick-action@v1.0.0
         with:
           allowUserToSpecifyBranchViaLabel: 'true'
-          labelPatternRequirement: 'CP v'
+          labelPatternRequirement: 'CP release-'
           userBranchPrefix: 'release-'
           labels: |
             cherry-pick
